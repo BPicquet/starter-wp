@@ -1,0 +1,99 @@
+#footer {
+    .footer-top {
+        &__container {
+            display: flex;
+            align-items: start;
+            justify-content: space-around;
+            padding: 50px 40px;
+    
+            &__about {
+                flex: 1;
+                margin: 0 30px;
+    
+                > span {
+                    font-size: 20px;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                }
+    
+                > p {
+                    font-size: 14px;
+                    margin: 5px 0;
+                }
+            }
+    
+            &__menu {
+                flex: 2;
+                margin: 0 30px;
+                display: flex;
+                justify-content: space-between;
+    
+                > div {
+                    flex: 1;
+                    margin: 0 20px;
+    
+                    > span {
+                        font-size: 20px;
+                        font-weight: 600;
+                        text-transform: uppercase;
+                    }
+    
+                    > a {
+                        > p {
+                            font-size: 14px;
+                            font-weight: 300;
+                            margin: 5px 0;
+                        }
+                    }
+                }
+            }
+    
+            &__social {
+                flex: 1;
+                margin: 0 30px;
+    
+                > span {
+                    font-size: 20px;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    margin-bottom: 10px;
+                }
+    
+                > div {
+                    margin: 10px 0;
+
+                    > div {
+                        margin-bottom: 15px;
+    
+                        > a {
+                            background-color: $yellow-primary;
+                            padding: 7px 15px;
+                            font-size: 14px;
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+            }
+        } 
+    }
+
+    .footer-bottom {
+        background-color: $white-secondary;
+
+        &__container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 40px;
+
+            > img {
+                width: 100px;
+            }
+    
+            > p {
+                font-size: 12px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

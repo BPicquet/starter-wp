@@ -1,0 +1,99 @@
+/*
+* Declarations of fonts
+*/
+
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+body, html {
+    font-family: 'Open Sans', sans-serif;
+    color: $black-primary;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    color: $black-primary;
+}
+
+a, span, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Rajdhani', sans-serif;
+    color: $black-primary;
+}
+
+h2, h3, h4, h5, h6 {
+    scroll-margin-top: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+h5 {
+    font-size: 25px;
+}
+
+h6 {
+    font-size: 22px;
+}
+
+.title-section {
+    font-size: 140px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px $white-primary;
+}
+
+.title-h2-section {
+    
+    > span:nth-child(1) {
+        text-transform: uppercase;
+        color: $yellow-primary;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 1.3px;
+    }
+
+    > h2 {
+        text-transform: uppercase;
+        margin: 0px 0 -10px 0;
+        color: $black-primary;
+        font-size: 50px;
+    }
+
+    > span:nth-child(3) {
+        text-transform: uppercase;
+        color: transparent;
+        font-size: 42px;
+        font-weight: 900;
+        -webkit-text-stroke: 0.5px $black-primary;
+    }
+}
+
+.title-h3-section {
+
+    > h3 {
+        text-transform: uppercase;
+        margin: 0px 0px 15px 0;
+        color: $black-primary;
+        font-size: 40px;
+    }
+}
